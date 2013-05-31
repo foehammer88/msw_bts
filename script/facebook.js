@@ -1,11 +1,12 @@
-
+//Use this link to login to facebook
+//https://www.facebook.com/dialog/oauth/?client_id=151689381674178&redirect_uri=http://arachnid.student.rit.edu:3000/&scope=read_stream,email,export_stream,photo_upload,user_likes,user_activities,user_status,friends_status,publish_stream
 // Additional JS functions here
 var email = "";
 
 window.fbAsyncInit = function () {
     FB.init({
-        appId: '536466069729077', // App ID
-        channelUrl: '//http://people.rit.edu/~amb8805/Music/channel.html', // Channel File
+        appId: '151689381674178', // App ID
+        //channelUrl: '//http://people.rit.edu/~amb8805/Music/channel.html', // Channel File
         status: true, // check login status
         cookie: true, // enable cookies to allow the server to access the session
         xfbml: true  // parse XFBML
